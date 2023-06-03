@@ -1,0 +1,44 @@
+body{
+    background-color: green;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+h1{
+    color:white;
+    font-size:45px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.parrafos{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#footer{
+    text-align: center;
+    position:fixed;
+    left: 0%;
+    bottom: 0%;
+    height: 3%;
+    background-color: red;
+    color:white;
+    width: 100%
+    
+}
+

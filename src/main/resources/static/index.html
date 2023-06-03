@@ -4,8 +4,43 @@
         <title>Principal</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+
     </head>
     <body>
-        <h1>Pagina principal</h1>
+        <header>
+            <nav><h1><a href="index.html">FútbolCR</a></h1>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Historia.html">Historia</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="estadistica.html">Estadistica</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="estadios.html">Estadios</a></li>
+                    <li><a href="equipos.html">Equipos</a></li>
+                    <li><a href="tecnicas.html">Tecnicas</a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+        <div>
+
+            <h2 style="margin-left: 5%;">Jugá y ganá</h2>
+
+            <form action="#" style="font-size: 22px">
+                <label>¿Qué selección ganó la primera Copa del Mundo (1930)? </label><input type="text" id="text" placeholder="Digite su respuesta" size="50"><br/><br/>
+                <label>¿En qué Copa del Mundo Diego Maradona firmó la famosa 'Mano de Dios'? </label><input type="text" id="text" placeholder="Digite su respuesta" size="50"><br/><br/>
+                <label>¿Cuántos jugadores tiene un equipo de fútbol en el campo de juego? </label><input type="number" name="number" value="50" min="5" max="13"><br/><br/>
+                <label>¿Cuántos titulo nacionales tiene el Club Sport Cartaginés? </label><input type="number" name="number" value="50" min="0" max="100"><br/><br/>
+                <label>¿En qué fecha nació Cristiano Ronaldo?</label><input type="date" name="date" min="1980-01-01" max="2000-01-01"><br/><br/>
+                <label></label><input type="reset" name="reset" value="Limpiar">
+                <label></label><input type="submit" value="Enviar"><br/><br/>
+            </form>
+            <figure>
+                <img src="imagenes/quiz.png" alt="" height="250px"/>
+            </figure>
+        </div>
+        <footer id="footer">José Luis Jiménez 2023</footer>
     </body>
 </html>
